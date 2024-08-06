@@ -15,4 +15,5 @@ console.log(document.getElementById('btn'));
 btn.addEventListener('click',() => {
   //見出しのテキストを変更
  text.textContent = 'ボタンをクリックしました';
+ const textElement = document.getElementById('text');
 });
