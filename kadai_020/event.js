@@ -14,6 +14,5 @@ console.log(document.getElementById('btn'));
 //ボタンがクリックされた時に実行されるイベントリスナーを追加
 btn.addEventListener('click',() => {
   //見出しのテキストを変更
- text.textContent = 'ボタンをクリックしました';
- const textElement = document.getElementById('text');
+ textElement.textContent = 'ボタンをクリックしました';
 });
